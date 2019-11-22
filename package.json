@@ -1,0 +1,21 @@
+{
+  "name": "taiko-electron",
+  "version": "1.0.0",
+  "repository": "electron/simple-samples",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron app.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.2"
+  },
+  "dependencies": {
+    "jest": "^24.9.0",
+    "papaparse": "^4.6.0",
+    "taiko": "^1.0.2",
+    "electron": "~7.1.2",
+    "eslint": "^6.6.0",
+    "tree-kill": "^1.2.1"
+  }
+}
