@@ -15,7 +15,6 @@ beforeEach(async () => {
   pid = spawn(electron, ['.', `--remote-debugging-port=${port}`], {
     shell: true
   }).pid;
-  console.log(process.versions['chrome'])
   await tk.openBrowser({ headless: false, host: 'localhost', port });
 });
 
@@ -29,5 +28,5 @@ afterEach(async () => {
 
   test('Text matches', async () => {
     const isText = await tk.text('Demo of Electron Taiko.').exists();
-    console.log(isText);
-  });
+    expect(isText).toBe(true);
+    });
