@@ -16,6 +16,6 @@
     "taiko": "git://github.com/getgauge/taiko.git",
     "electron": "~7.1.2",
     "eslint": "^6.6.0",
-    "tree-kill": "^1.2.1"
+    "tree-kill": "^1.2.2"
   }
 }
