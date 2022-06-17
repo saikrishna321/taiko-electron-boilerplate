@@ -8,13 +8,13 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "electron": "^3.0.2"
+    "electron": "^15.5.5"
   },
   "dependencies": {
     "jest": "^24.9.0",
     "papaparse": "^4.6.0",
     "taiko": "git://github.com/getgauge/taiko.git",
-    "electron": "~7.1.2",
+    "electron": "~15.5.5",
     "eslint": "^6.6.0",
     "tree-kill": "^1.2.1"
   }
